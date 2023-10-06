@@ -1,0 +1,46 @@
+
+
+#card  {
+    height:160px;
+    object-fit:cover;
+    border-radius: 20px;
+    opacity: 5;
+    
+    
+    
+}
+img{
+    height:160px;
+    object-fit:cover;
+    border-radius: 20px;
+    opacity: 5;
+}
+
+#card:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #00fffc;
+    margin:5px;
+}
+
+
+#gallery{
+    height: 800px;;
+    width: 100%;
+    scroll-snap-type:x  mandatory;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    scale: 1.6;
+    background-color: black;
+    
+    
+
+}
+/* 
+@keyframes skew{
+    100%{
+        transform: skew(10px 20px);
+    }
+} */
